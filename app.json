@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "aimira-mobile-app-v2",
-    "slug": "aimira-mobile-app-v2",
+    "name": "todo-app-react-native",
+    "slug": "todo-app-react-native",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "aimiramobileappv2",
+    "scheme": "todoappreactnative",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
