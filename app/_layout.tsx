@@ -1,3 +1,5 @@
+// src/app/_layout.tsx
+
 import { ThemeProvider } from "@/hooks/useTheme";
 import { Stack } from "expo-router";
 import { ConvexProvider, ConvexReactClient } from "convex/react";

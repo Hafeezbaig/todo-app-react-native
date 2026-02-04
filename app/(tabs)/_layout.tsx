@@ -1,3 +1,6 @@
+
+// src/app/(tabs)/_layout.tsx
+
 import { Tabs } from 'expo-router'
 import IonIcons from '@expo/vector-icons/Ionicons'
 import useTheme from '@/hooks/useTheme'
@@ -25,7 +28,7 @@ const TabsLayout = () => {
       }}
     >
       <Tabs.Screen name="index" options={{
-        title: "Todos",
+        title: "Home",
         tabBarIcon: ({ color, size }) => (
           <IonIcons name='flash-outline'
           size={size} color={color} />
@@ -33,7 +36,7 @@ const TabsLayout = () => {
       }}/>
 
       <Tabs.Screen name="settings" options={{
-        title: "Todos",
+        title: "Settings",
         tabBarIcon: ({ color, size }) => (
           <IonIcons name='settings' 
           size={size} color={color} />
